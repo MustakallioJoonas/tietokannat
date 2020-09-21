@@ -1,0 +1,45 @@
+4 Tehtävä 
+
+SELECT * FROM Kurssisuoritus
+
+
+5 Tehtävä
+
+
+
+6  Tehtävä 
+
+SELECT DISTINCT kurssi FROM Kurssisuoritus
+
+
+7 Tehtävä
+
+SELECT * FROM Opiskelija WHERE nimi=’Anna’
+
+
+8 Tehtävä
+
+SELECT * FROM Kurssisuoritus WHERE opiskelija=999999
+
+
+9 Tehtävä
+
+SELECT DISTINCT pääaine FROM Opiskelija WHERE pääaine LIKE ’%tiede%*
+
+
+10 Tehtävä
+
+SELECT nimi, päivämäärä, arvosana FROM Kurssi, Kurssisuoritus WHERE Kurssi.kurssitunnus=Kurssisuoritus.kurssi
+
+
+11 Tehtävä
+
+SELECT DISTINCT nimi, päivämäärä, arvosana FROM Kurssisuoritus, Opiskelija WHERE Opiskelija.opiskelijanumero=Kurssisuoritus.opiskelija
+
+
+12 Tehtävä 
+
+
+
+
+13 Tehtävä 
